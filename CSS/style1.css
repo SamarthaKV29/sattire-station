@@ -1,0 +1,44 @@
+@charset "utf-8";
+@font-face {
+    font-family: 'Deftone'; /*a name to be used later*/
+    src: url(../Font/deftone%20stylus.ttf) /*URL to font*/
+}
+.myfont{
+	font-family: 'Deftone';	
+}
+*{
+	-webkit-transition: all 1.2s ease-in 0s;
+	-moz-transition: all 1.2s ease-in 0s;
+	-ms-transition: all 1.2s ease-in 0s;
+	-o-transition: all 1.2s ease-in 0s;
+	transition: all 1.2s ease-in 0s;
+}
+
+.rotate{
+	-webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);  
+    -ms-transform: rotate(360deg);  
+    -o-transform: rotate(360deg);  
+    transform: rotate(360deg);
+    -webkit-transition: all 1s ease-out;
+    -moz-transition: all 1s ease-out; 
+    -o-transition: all 1s ease-out;  
+    transition: all 1s ease-out;
+}
+
+.fLeft{
+	float:left;
+}
+.fRight{
+	float:right;
+}
+
+.mycell{
+	height: 300px;
+	overflow: hidden;
+}
+
+.expanded{
+	height:auto;	
+}
+
